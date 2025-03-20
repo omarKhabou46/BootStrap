@@ -1,0 +1,133 @@
+:root {
+    --main-color: #13242c;
+    --perple-color: #927ac9;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+/* start navbar */
+.navbar {
+    background-color: var(--main-color);
+}
+
+.navbar-toggler .menu {
+    outline: none;
+    box-shadow: none;
+}
+
+.navbar-toggler .menu:focus {
+    box-shadow: none;
+}
+
+.navbar-nav .nav-link {
+    color: white;
+}
+
+.navbar-nav .active,
+.navbar-nav .nav-link:hover {
+    text-decoration: underline;
+    text-decoration-color: var(--perple-color);
+    text-decoration-thickness: 2px;
+}
+
+.navbar-nav .active {
+    color:var(--perple-color);
+}
+
+.navbar form {
+    cursor: pointer;
+}
+
+.navbar span {
+    letter-spacing: 3px;
+}
+
+/* end navbar */
+
+/* start carousel  */
+
+.carousel {
+    background-color: var(--main-color);
+}
+
+.carousel-item img {
+    height: 500px;
+}
+
+/* end carousel  */
+
+/* start cards */
+.cards {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card {
+    padding: 0;
+    border: 1px solid #7f7c7c;
+}
+
+/* end cards */
+
+/* start profile */
+.team {
+    padding-top: 50px;
+}
+
+.team .p1 {
+    color: var(--main-color);
+    text-decoration: underline;
+    text-decoration-color: black;
+}
+
+.profiles {
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.profiles .colum img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.profiles .colum {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.profiles .colum p {
+    text-align: justify;
+    margin-top: 5px;
+}
+/* end profile */
+
+/* start footer */
+footer {
+    background-color: var(--main-color);
+}
+
+footer .contact {
+    width: 50%;
+    color: white;
+    padding: 100px;
+}
+
+footer .contact .contact1 {
+    display: flex;
+    gap: 20px;
+}
+
+footer .map .iframe {
+    width: 100%;
+    height: 100%;
+}
+
+
+/* end footer */
