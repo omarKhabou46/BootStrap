@@ -33,8 +33,8 @@ body .div-toast {
     top: 50%; 
     left: 50%; /* à 50%/50% du parent référent */
     transform: translate(-50%, -50%);
-    background-color: var(--white-color);
-    box-shadow: 10px 7px 7px rgba(0, 0, 0, 0.2);;
+    background-color: rgba(255, 255, 255);
+    box-shadow: 10px 7px 7px rgba(0, 0, 0, 0.2);
 }
 
 body .div-toast p {
@@ -72,6 +72,7 @@ header {
     position: sticky;
     top: 0;
     width: 100%;
+    z-index: 1000;
 }
 
 header .logo {

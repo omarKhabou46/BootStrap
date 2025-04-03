@@ -146,10 +146,8 @@ function createToast() {
     divToast.appendChild(annuler);
     divToast.appendChild(p);
     document.body.appendChild(divToast);
-    document.body.style.cssText = "opacity: 0.7";
     annuler.addEventListener('click', function () {
         divToast.remove();
-        document.body.style.cssText = "opacity: 1";
     })
    }else {
     return;
